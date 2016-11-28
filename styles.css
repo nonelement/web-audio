@@ -1,0 +1,35 @@
+section {
+    display: block;
+    text-align: center;
+    margin-top: 30%;
+}
+
+/*
+    Bonus CSS Block: Some transitions.
+    Comment the following AND bonus JS block to eliminate eye-candy.
+*/
+.drop, .rise {
+    display: inline-block;
+}
+
+.drop {
+    transform: translateY(30px);
+    color: white;
+    transition: all 2s;
+}
+
+.rise {
+    transform: translatey(-30px);
+    color: white;
+    transition: all 2.5s;
+}
+
+.drop.now {
+    transform: translateY(0px);
+    color: black;
+}
+
+.rise.now {
+    transform: translateY(0px);
+    color: black;
+}
