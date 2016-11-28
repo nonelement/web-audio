@@ -46,6 +46,7 @@ function melody (seq) {
             return;
         }
         console.log(notes[current]);
+        // Play the current note, at duration .5, and use note as callback.
         playSound(Notes[notes[current++]], .5, note);
     }
     note();
